@@ -1,18 +1,30 @@
-# Vue 3 + TypeScript + Vite
+# Minecraft Wiki Teleport
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+油猴脚本，用于一键从[Fandom](https://minecraft.fandom.com/zh/wiki/)上的 Minecraft 中文 Wiki 跳转到[新 Wiki](https://zh.minecraft.wiki/)。
 
-## Recommended IDE Setup
+用来测试`Vue 3`的`<Teleport>`组件（[文档](https://cn.vuejs.org/guide/built-ins/teleport)），所以叫这个名字。
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 功能
 
-## Type Support For `.vue` Imports in TS
+- 在置顶导航条添加`【新Wiki】`菜单
+- 在页面导航栏添加`【新Wiki】`菜单
+- 在页面左边的工具栏添加`【新】`按钮
+- 按下 `n` 键
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## 在线安装（待补充）
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+- [GitHub](xxx)
+- [ghproxy](xxx)
+- [jsdelivr](xxx)
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## 编译安装
+
+步骤如下：
+
+```bash
+git clone https://github.com/Arathi/minecraft-wiki-teleport.git
+cd minecraft-wiki-teleport
+pnpm i
+pnpm build
+pnpm preview
+```
