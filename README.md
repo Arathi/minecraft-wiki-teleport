@@ -11,11 +11,11 @@
 - 在页面左边的工具栏添加`【新】`按钮
 - 按下 `n` 键
 
-## 在线安装（待补充）
+## 在线安装
 
-- [GitHub](xxx)
-- [ghproxy](xxx)
-- [jsdelivr](xxx)
+- [GitHub](https://github.com/Arathi/minecraft-wiki-teleport/raw/master/dist/minecraft-wiki-teleport.user.js)
+- [GitHub Proxy](https://mirror.ghproxy.com/https://github.com/Arathi/minecraft-wiki-teleport/raw/master/dist/minecraft-wiki-teleport.user.js)
+- [jsDelivr](https://cdn.jsdelivr.net/gh/Arathi/minecraft-wiki-teleport/dist/minecraft-wiki-teleport.user.js)
 
 ## 编译安装
 
